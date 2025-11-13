@@ -67,6 +67,11 @@ Create a `.env` file in the project root with the following content:
 
 To send emails securely, enable 2FA on your Google account and create an [App Password](https://support.google.com/accounts/answer/185833?hl=en). Use this password in your `.env` as `GMAIL_PASS`.
 
+
+5. **Add Schedule Picture:**
+
+Within the scope of the program, add your schedule and update the path, `img_path`, within the program to implement the schedule function.
+
 ---
 
 ## Usage
@@ -74,7 +79,7 @@ To send emails securely, enable 2FA on your Google account and create an [App Pa
 1. Run the main Python file:
 
     ```
-    python homework_creator.py
+    python homeworkMailGithub.py
     ```
 
 2. Fill in homework tasks and estimated times for each class.
@@ -89,4 +94,4 @@ To send emails securely, enable 2FA on your Google account and create an [App Pa
 - Emails are sent via Gmail's SMTP server (`smtp.gmail.com`, port `587`).
 - The app performs a simple regex validation for email addresses.
 - The `.env` file keeps your credentials secure and out of version control.
-- Always double-check the recipient email before sending.
+- Always double-check the recipient's email before sending.
