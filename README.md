@@ -54,8 +54,14 @@ Dependencies include:
 
 Create a `.env` file in the project root with the following content:
 
-    GMAIL_USER=your_email@gmail.com
-    GMAIL_PASS=your_app_password
+- Copy the example file `env.example` to `.env`:
+
+      cp env.example .env
+
+- Edit `.env` and replace the placeholders with your Gmail credentials:
+
+      GMAIL_USER=your_email@gmail.com
+      GMAIL_PASS=your_app_password
 
 4. **Generate a Gmail App Password**:
 
