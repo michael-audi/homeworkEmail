@@ -84,7 +84,7 @@ classes = [f"{cb['Orange']}, {cb['Yellow']}, {cb['Green']}, {cb['Red']}, {cb['Bl
            f"{cb['Blue']}, {cb['Yellow']}, {cb['Green']}, {cb['Tan']}, {cb['Purple']}"] # Day 7
 
 # Default drop clases --> WHS Standard
-drops = [f"{cb['Tan'], cb['Purple']}", # Day 1
+drops = [f"{cb['Tan']}, {cb['Purple']}", # Day 1
          f"{cb['Green']}, {cb['Blue']}", # Day 2
          f"{cb['Yellow']}, {cb['Red']}", # Day 3
          f"{cb['Orange']}, {cb['Purple']}", # Day 4
